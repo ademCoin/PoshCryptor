@@ -1,4 +1,4 @@
-# Beigeworm's File Encryptor
+# Ransomware in Powershell!
 
 **SYNOPSIS**
 This script encrypts all files within selected folders, posts the encryption key to a Discord webhook, and starts a non closable window
