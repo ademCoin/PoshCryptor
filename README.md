@@ -27,3 +27,9 @@ Credit and kudos to InfosecREDD for the idea of writing ransomware in Powershell
 this is my interpretation of his non publicly available script used in this Talking Sasquatch video.
 
 https://youtu.be/IwfoHN2dWeE
+
+# SCREENSHOTS
+
+![note](https://github.com/beigeworm/PoshCryptor/assets/93350544/050ab6bc-a53f-41be-840f-a2952f9b28a3)
+
+![save](https://github.com/beigeworm/PoshCryptor/assets/93350544/66b558c2-7729-441c-b49f-aed0fdfe0278)
