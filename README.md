@@ -32,4 +32,6 @@ https://youtu.be/IwfoHN2dWeE
 
 ![note](https://github.com/beigeworm/PoshCryptor/assets/93350544/050ab6bc-a53f-41be-840f-a2952f9b28a3)
 
+![Screenshot_1](https://github.com/beigeworm/PoshCryptor/assets/93350544/0bf8a282-7d47-4ed0-9d4b-6d1c903ba617)
+
 ![save](https://github.com/beigeworm/PoshCryptor/assets/93350544/66b558c2-7729-441c-b49f-aed0fdfe0278)
